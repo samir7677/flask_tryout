@@ -1,6 +1,6 @@
-from flask import flask
-app = flask(__name__)
+from flask import Flask
+app = Flask(__name__)
 
-@app.rout("/")
+@app.route("/")
 def hallo():
-    return"<p>halloworld!</p>"
+    return"<p>welkom bij NHA!</p>"
